@@ -1,0 +1,5 @@
+indicator_1,indicator_2,correlation,relationship
+anc_coverage,high_risk_cases,-0.905,Negative
+institutional_delivery,immunization,0.984,Positive
+institutional_delivery,high_risk_cases,-0.732,Negative
+immunization,high_risk_cases,-0.753,Negative

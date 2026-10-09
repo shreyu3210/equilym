@@ -1,0 +1,16 @@
+insight_id,type,indicator,entity,period,metric,change,severity,explanation
+INS-0001,trend,anc_coverage,Ahmedabad,2026-08,69.0,-18.82,Low,anc_coverage in Ahmedabad decreased by 18.82% compared with the previous month.
+INS-0002,trend,anc_coverage,Mehsana,2026-08,42.0,-50.0,High,anc_coverage in Mehsana decreased by 50.00% compared with the previous month.
+INS-0003,trend,high_risk_cases,Ahmedabad,2026-08,13.0,30.0,High,high_risk_cases in Ahmedabad increased by 30.00% compared with the previous month.
+INS-0004,trend,high_risk_cases,Bhavnagar,2026-08,15.0,-11.76,Low,high_risk_cases in Bhavnagar decreased by 11.76% compared with the previous month.
+INS-0005,trend,high_risk_cases,Mehsana,2026-08,28.0,154.55,High,high_risk_cases in Mehsana increased by 154.55% compared with the previous month.
+INS-0006,trend,high_risk_cases,Vadodara,2026-05,8.0,-11.11,Low,high_risk_cases in Vadodara decreased by 11.11% compared with the previous month.
+INS-0007,trend,high_risk_cases,Vadodara,2026-07,7.0,-12.5,Low,high_risk_cases in Vadodara decreased by 12.50% compared with the previous month.
+INS-0008,trend,high_risk_cases,Vadodara,2026-08,6.0,-14.29,Low,high_risk_cases in Vadodara decreased by 14.29% compared with the previous month.
+INS-0009,outlier,anc_coverage,Mehsana,2026-08,42.0,27.0,High,"anc_coverage in Mehsana was 42, outside the IQR bounds of 69.00 to 93.00."
+INS-0010,outlier,immunization,Vadodara,2026-08,97.0,0.5,Low,"immunization in Vadodara was 97, outside the IQR bounds of 84.50 to 96.50."
+INS-0011,outlier,high_risk_cases,Mehsana,2026-08,28.0,5.12,Medium,"high_risk_cases in Mehsana was 28, outside the IQR bounds of 3.88 to 22.88."
+INS-0012,correlation,anc_coverage / high_risk_cases,All districts,2026-04 to 2026-08,-0.905,-0.905,High,anc_coverage / high_risk_cases have a negative Pearson correlation of -0.91. Correlation does not imply causation.
+INS-0013,correlation,institutional_delivery / immunization,All districts,2026-04 to 2026-08,0.984,0.984,High,institutional_delivery / immunization have a positive Pearson correlation of 0.98. Correlation does not imply causation.
+INS-0014,correlation,institutional_delivery / high_risk_cases,All districts,2026-04 to 2026-08,-0.732,-0.732,Medium,institutional_delivery / high_risk_cases have a negative Pearson correlation of -0.73. Correlation does not imply causation.
+INS-0015,correlation,immunization / high_risk_cases,All districts,2026-04 to 2026-08,-0.753,-0.753,Medium,immunization / high_risk_cases have a negative Pearson correlation of -0.75. Correlation does not imply causation.

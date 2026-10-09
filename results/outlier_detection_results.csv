@@ -1,0 +1,4 @@
+district,month,indicator,value,lower_bound,upper_bound,outlier_type
+Mehsana,2026-08,anc_coverage,42,69.0,93.0,Low
+Vadodara,2026-08,immunization,97,84.5,96.5,High
+Mehsana,2026-08,high_risk_cases,28,3.88,22.88,High
